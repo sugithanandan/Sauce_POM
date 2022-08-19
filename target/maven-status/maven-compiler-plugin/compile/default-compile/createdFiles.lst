@@ -1,0 +1,6 @@
+com/sauce/base/OverViewPage.class
+com/sauce/base/HomePage.class
+com/sauce/base/LoginPage.class
+com/sauce/base/ShopCart.class
+com/sauce/base/OrderCompletion.class
+com/sauce/base/PersonalInfoFilling.class
