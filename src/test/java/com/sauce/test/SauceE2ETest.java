@@ -56,7 +56,6 @@ public class SauceE2ETest {
 	}
 	
 	@AfterMethod
-	@AfterClass
 	public void tearDown()
 	{
 		driver.quit();
