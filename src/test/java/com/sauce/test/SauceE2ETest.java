@@ -29,6 +29,7 @@ public class SauceE2ETest {
 	{
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
+		System.out.println("Driver Launched Successfully.");
 	}
 	
 	@Test
@@ -59,6 +60,7 @@ public class SauceE2ETest {
 	public void tearDown()
 	{
 		driver.quit();
+		System.out.println("Driver instance killed Successfully.");
 	}
 
 }
